@@ -1,0 +1,25 @@
+header
+  .header-overlay
+  .header-top
+    .logo
+      img(src="../static/img/general/logo.png").logo__img
+      span.logo__text MISOCIAL
+    nav.nav
+      ul.nav__list.header-nav-list
+        each item in nav.navHeader
+          li.nav__item
+            a.nav__link(href=item.link)=item.title
+      a.btn.m-btn--header Get started
+      .mobile-nav-icon.js-nav-icon
+          span 
+          span 
+          span
+      
+  .header-middle
+    span.header-middle__caption SOCIAL MARKETING & ANALYTICS
+    h1.header-middle__heading Pricing Table
+    p.header-middle__description Lorem ipsum dolor sit amet, consectetur addipisicing elit, sed do eiusmod tempor incididunt ut.
+
+  .arrow-down
+    .arrow-down__ico
+      img(src="../../static/img/general/arrow-down.svg")

@@ -1,0 +1,25 @@
+{
+  "navHeader": [
+    {
+      "title" : "Home",
+      "link" : "javascript:void(0);"
+    },
+    {
+      "title" : "Why MISOCIAL",
+      "link" : "javascript:void(0);",
+      "class" : " "
+    },
+    {
+      "title" : "Features",
+      "link" : "javascript:void(0);"
+    },
+    {
+      "title" : "Articles",
+      "link" : "javascript:void(0);"
+    },
+    {
+      "title" : "Pricing",
+      "link" : "javascript:void(0);"
+    }
+  ]
+}

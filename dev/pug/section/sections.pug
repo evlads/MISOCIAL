@@ -1,0 +1,26 @@
+section.pricing
+  .container
+    .pricing-top
+      span.pricing-top__caption Misocial
+      h3.pricing-top__heading Select a Plan
+      p.pricing-top__description Lorem ipsum dolor sit amet, consectetur addipisicing elit, sed do eiusmod tempor incididunt ut.
+  
+    ul.pricing-cards
+      each item in content.price
+        li.pricing-card
+          .pricing-card__img
+            img(src=item.img)
+          span.pricing-card__title=item.title
+          span.pricing-card__price
+            sup.pricing-card__price-before $
+            =item.price
+            span.pricing-card__price-after /month
+          p.pricing-card__description !{item.description}
+          a.btn.pricing-card__btn(href=item.btnLink)=item.btnTitle
+
+section.calltoaction
+  .calltoaction-overlay
+  span.calltoaction__caption SOCAL MARKETING & ANALYTICS
+  h3.calltoaction__heading Take control of your data
+  a.btn.calltoaction__btn(href='javascript:void(0);') get started
+  a.btn.calltoaction__btn(href='javascript:void(0);') explore features

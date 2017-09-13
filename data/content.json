@@ -1,0 +1,28 @@
+{
+  "price": [
+    {
+      "img" : "../static/img/content/asset1.png",
+      "title" : "personal",
+      "price" : "0",
+      "description" : "Lorem ipsum dolor sit amet.<br> sed do eiusmod tempor incididunt ut.<br> Labore et dolore magna aliqua.<br> quis nostrud exercitation ullamco laboris.<br> Ea commodo consequat.",
+      "btnTitle" : "select plan",
+      "btnLink" : "javascript:void(0);"
+    },
+    {
+      "img" : "../static/img/content/asset2.png",
+      "title" : "personal",
+      "price" : "29",
+      "description" : "Lorem ipsum dolor sit amet.<br> sed do eiusmod tempor incididunt ut.<br> Labore et dolore magna aliqua.<br> quis nostrud exercitation ullamco laboris.<br> Ea commodo consequat.",
+      "btnTitle" : "select plan",
+      "btnLink" : "javascript:void(0);"
+    },
+    {
+      "img" : "../static/img/content/asset3.png",
+      "title" : "personal",
+      "price" : "49",
+      "description" : "Lorem ipsum dolor sit amet.<br> sed do eiusmod tempor incididunt ut.<br> Labore et dolore magna aliqua.<br> quis nostrud exercitation ullamco laboris.<br> Ea commodo consequat.",
+      "btnTitle" : "select plan",
+      "btnLink" : "javascript:void(0);"
+    }
+  ]
+}

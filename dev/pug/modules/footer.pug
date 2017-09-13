@@ -1,0 +1,20 @@
+footer
+  .footer
+    .footer-top
+      .logo.logo--footer
+        img(src="../static/img/general/logo.png").logo__img
+        span.logo__text.logo__text--footer MISOCIAL
+      nav.nav
+        ul.nav__list.nav__list--footer
+          each item in nav.navHeader
+            li.nav__item
+              a.nav__link.nav__link--footer(href=item.link)=item.title
+        a.btn.btn--footer Get started
+    
+    .footer-bottom
+      p.copyright © 2017 Mass Impressions & Tranmautritam. Make the right impression.
+      .social-box
+        each val in ["facebook", "google", "instagram", "twitter"]
+          a.social__ico(href="javascript:void(0);")
+            +icon(val)
+
